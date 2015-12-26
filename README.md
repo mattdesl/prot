@@ -127,6 +127,7 @@ See here for an example of the build output:
 - How do you deal with special Babel presets, source transforms, etc?
 - How about CSS pre-processors?
 - Is it possible to distribute/share a hack without compressing/bundling the code?
+- What about Webpack, HMR, and all the other bells & whistles?
 
 ## See Also
 
@@ -134,8 +135,8 @@ See here for an example of the build output:
 - [budo](https://github.com/mattdesl/budo) - a more robust dev server, similar to this
 - [module-generator](https://www.npmjs.com/package/module-generator) for the boilerplate (ignores, license)
 - [ghrepo](http://npmjs.com/package/ghrepo) for the GitHub API
-- [@mattdesl/ghpages](npmjs.com/package/@mattdesl/ghpages) for distribution
-
+- [@mattdesl/ghpages](http://npmjs.com/package/@mattdesl/ghpages) for distribution
+- [@mattdesl/quick-stub](https://www.npmjs.com/package/@mattdesl/quick-stub) personalized tools for scaffolding features into a module
 
 ## License
 
