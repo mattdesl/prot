@@ -39,7 +39,7 @@
   },
   "scripts": {
     "test": "./bin/cmd.js example/index.js --react --css example/main.css",
-    "build": "./bin/cmd.js example/index.js --react --css example/main.css -b"
+    "build": "./bin/cmd.js example/index.js --react --css example/main.css -b example/index.html"
   },
   "keywords": [
     "dev",
