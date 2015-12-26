@@ -1,6 +1,6 @@
 {
   "name": "prot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "highly opinionated dev environment",
   "main": "index.js",
   "license": "MIT",
