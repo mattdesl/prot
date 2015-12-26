@@ -102,6 +102,10 @@ The above command will bundle a compressed `index.js` into a script tag inside `
 
 The build will set NODE_ENV to `'production'` for smaller bundles.
 
+See here for an example of the build output:
+
+- http://mattdesl.github.io/prot/example/
+
 ## Features
 
 - All the features of [budo](https://www.npmjs.com/package/budo) like:
