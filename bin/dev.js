@@ -12,7 +12,9 @@ function dev (args, argv, babelify) {
     transforms.push([ installify, { save: true } ])
   }
 
-  var opts = assign({}, argv, {
+  var opts = assign({
+    title: 'prot'
+  }, argv, {
     live: true,
     forceDefaultIndex: true,
     browserify: {

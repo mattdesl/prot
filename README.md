@@ -40,6 +40,7 @@ Saving the `index.js` file will trigger a LiveReload. It includes ES2015 and `ba
 If you don't specify anything, it will default to `index.js`:
 
 ```sh
+# same as `prot index.js`
 prot
 ```
 
@@ -57,7 +58,7 @@ The CSS will be LiveReloaded without refreshing the browser, and without losing 
 
 <sup>(this feature is still experimental)</sup>
 
-You can pass `--install` or `-i`, which will auto-install npm dependencies on file save, and add them to your package.json. This means you can hack without typing `npm install`.
+You can pass `--install` or `-i`, which will auto-install npm dependencies on file save, and add them to your package.json. This means you can hack without typing `npm install react --save` and so forth.
 
 ```sh
 prot --install
@@ -72,7 +73,7 @@ Also see:
 You can also enable `babel-preset-react` with `-r` or `--react`:
 
 ```sh
-prot --install --react
+prot --react --install
 ```
 
 After running the above command, try pasting the following and reloading the browser.
@@ -87,6 +88,8 @@ ReactDOM.render(
   document.body
 )
 ```
+
+It should auto-install and save `react` and `react-dom` because of the `--install` flag.
 
 ## Build
 
