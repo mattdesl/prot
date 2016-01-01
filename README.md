@@ -4,7 +4,7 @@
 
 A ridiculously opinionated dev environment for insanely fast rapid prototyping.
 
-**This is a proof-of-concept** and a response to @Vjeux's challenge to create a system for [rapid prototyping](https://twitter.com/mattdesl/status/680776941960564736).
+**This is a proof-of-concept** and a response to @Vjeux's challenge to create a system for [rapid prototyping](https://twitter.com/mattdesl/status/680776941960564736). I will not be actively maintaining this module. See [run-js](https://github.com/remixz/run-js) for a more active project in a similar vein.
 
 For a more flexible workflow with minimal boilerplate, check out my post [Rapid Prototyping in JavaScript](http://mattdesl.svbtle.com/rapid-prototyping).
 
