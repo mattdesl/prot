@@ -15,7 +15,8 @@ if (argv._.length === 1) {
 }
 
 var presets = [
-  require('babel-preset-es2015')
+  require('babel-preset-es2015'),
+  require('babel-preset-stage-0')
 ]
 
 if (argv.r || argv.react) {
